@@ -31,15 +31,15 @@ def ouvir_microfone():
             os.system("start Chrome.exe")
             return False
 
-        elif "Excel" in frase:
+        if "Excel" in frase:
             os.system("start Excel.exe")
             return False
 
-        elif "Word" in frase:
+        if "Word" in frase:
             os.system("start WINWORD.exe")
             return False
 
-        elif "PowerPoint" in frase:
+        if "PowerPoint" in frase:
             os.system("start POWERPNT.exe")
             return False
         
